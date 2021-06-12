@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    font-family: arial, "Helvetica Neue", helvetica, sans-serif;
+    font-size: 17px;
+    color: #926239;
+    line-height: 1.6;
+}
+
+header{
+    margin: 0;
+    font-family: arial, "Helvetica Neue", helvetica, sans-serif;
+    font-size: 60px;
+    color: #ffffff;
+    line-height: 1.2;
+}
+#showcase{
+    background-image: url(img/Melbourne.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#showcase .button{
+    font-size: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    border: #ffffff 1px solid;
+    padding:  10px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#showcase .button:hover{
+    background: #ffffff;
+    color: #000000;
+}
+
+#section-a{
+    padding: 20px;
+    background: #5cb5ce;
+    color: #fff;
+    text-align: center;
+}
+
+#section-b{
+    padding: 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#section-c{
+    display: flex;
+}
+
+#section-c .box-1, #section-c .box-3{
+    background: #5cb5ce;
+    color: #fff;
+}
+
